@@ -18,5 +18,9 @@ Install:
 curl -fsSL https://panel-ai.neko-build.tech/install.sh | bash
 ```
 
-The installer verifies the checksum before it writes anything. This repository
-holds binaries only; the source lives in the private monorepo.
+The installer verifies the checksum before it writes anything. It is Linux
+x86_64; on macOS, download the matching `nekocode-macos-*` asset and its
+`.sha256`, verify the checksum, and place the binary at
+`~/.local/bin/nekocode`.
+
+This repository holds binaries only; the source lives in the private monorepo.
