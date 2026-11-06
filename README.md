@@ -2,12 +2,14 @@
 
 Release artifacts for [Neko-AI](https://github.com/Neko-Inference/Neko-AI).
 
-Every `cli-v*` tag here carries the `neko` terminal client:
+Every `cli-v*` tag here carries the `nekocode` terminal client:
 
 | asset | what it is |
 | --- | --- |
-| `neko-linux-amd64` | the static musl build — Ubuntu, Fedora, Arch, Debian, RHEL, openSUSE, Alpine, WSL2 |
-| `neko-linux-amd64.sha256` | its checksum |
+| `nekocode-linux-amd64` | the static musl build — Ubuntu, Fedora, Arch, Debian, RHEL, openSUSE, Alpine, WSL2 |
+| `nekocode-macos-arm64` | Apple Silicon macOS build, ad-hoc signed |
+| `nekocode-macos-amd64` | Intel macOS build, ad-hoc signed |
+| `*.sha256` | the checksum for the matching binary |
 | `release.json` | the manifest the CLI's update check reads |
 
 Install:
